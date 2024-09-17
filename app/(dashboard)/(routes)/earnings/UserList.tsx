@@ -92,7 +92,7 @@ const UserList: React.FC<UserListProps> = ({ users, onUserSelect }) => {
       {selectedUser && (
         <Modal isOpen={isModalOpen} onClose={closeModal}>
           <h2 className="text-lg font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4 md:text-2xl rounded-md">
-            {selectedUser.name}'s Earnings Details
+            {selectedUser.name}&apos;s Earnings Details
           </h2>
 
           <div className="flex items-center space-x-4 mb-6">
