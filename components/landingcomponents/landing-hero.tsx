@@ -11,7 +11,7 @@ const LandingHero = () => {
   return (
     <div className="text-white font-bold py-28 text-center space-y-7">
       <div className="text-3xl md:text-5xl space-y-6 font-extrabold">
-        <h1 className="mb-4">Elevate Your Team's Productivity with</h1>
+        <h1 className="mb-4">Elevate Your Team&apos;s Productivity with</h1>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-500">
           <TypewriterComponent
             options={{
