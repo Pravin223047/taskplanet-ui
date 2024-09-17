@@ -5,8 +5,16 @@ import { Button } from "@/components/ui/button"; // Assuming you're using ShadCN
 import { Switch } from "@/components/ui/switch"; // ShadCN's Switch component
 import { useToast } from "@/hooks/use-toast";
 
+interface Task {
+  id: number;
+  title: string;
+  description: string;
+  earnings: number;
+  completed: boolean;
+}
+
 interface TaskCardProps {
-  task: any;
+  task: Task;
   textColor: string;
   bgColor: string;
 }
