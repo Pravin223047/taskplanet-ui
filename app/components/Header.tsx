@@ -84,8 +84,8 @@ const Header: FC = () => {
             <span className="text-xs text-gray-700 font-medium">
               Welcome to Taskpanet! Earn rewards for every successful referral.
               Get a chance to win up to ₹1000! Stay tuned for exciting offers
-              and don't miss out on the special bonuses for new users. Join now
-              and invite your friends to double your earnings!
+              and don&apos;t miss out on the special bonuses for new users. Join
+              now and invite your friends to double your earnings!
             </span>
           </div>
         </div>
