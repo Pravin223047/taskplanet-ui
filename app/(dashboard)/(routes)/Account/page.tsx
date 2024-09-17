@@ -1,6 +1,6 @@
 // components/ManageAccount.tsx
 "use client";
-import { UserButton, useUser } from "@clerk/nextjs";
+import { useUser } from "@clerk/nextjs";
 import { User, Gift, Phone, MessageSquare, List } from "lucide-react";
 import { useRouter } from "next/navigation";
 
