@@ -1,18 +1,9 @@
-import {
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaYoutube,
-  FaLinkedin,
-  FaTelegramPlane,
-} from "react-icons/fa";
-
 interface WorkExperienceItem {
   id: number;
   title: string;
   desc: string;
   icon: string;
-  number: number; // Correct type for React components
+  number: number;
 }
 
 export const workExperience: WorkExperienceItem[] = [
