@@ -113,7 +113,7 @@ const EarningsComponent: React.FC<EarningsProps> = ({
           {userDetails && userDetails.name
             ? `${displayUserDetails.name}`
             : `${user.user?.fullName}`}
-          's Earnings Details
+          &apos;s Earnings Details
         </h2>
 
         <div className="flex items-center space-x-4 mb-6">
