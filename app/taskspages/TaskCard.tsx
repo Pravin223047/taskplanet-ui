@@ -25,7 +25,7 @@ const TaskCard: React.FC<TaskCardProps> = ({ task, textColor, bgColor }) => {
   const { toast } = useToast();
 
   const handlestarttask = () => {
-    // setIsTaskStarted(true);
+    setIsTaskStarted(true);
     toast({
       title: "Start Button Functionality",
       description: "Functinality has not been implemented yet!!!",
@@ -62,13 +62,6 @@ const TaskCard: React.FC<TaskCardProps> = ({ task, textColor, bgColor }) => {
                 <Dialog.Description className="mt-2 text-sm text-gray-600">
                   {task.description}
                 </Dialog.Description>
-                {task.points && (
-                  <ul className="mt-4 list-disc list-inside space-y-2 text-sm text-gray-700">
-                    {task.points.map((point: string, index: number) => (
-                      <li key={index}>{point}</li>
-                    ))}
-                  </ul>
-                )}
                 <p className="mt-4 text-lg font-semibold">
                   Earn: <span className="text-green-500">{task.earnings}</span>
                 </p>
