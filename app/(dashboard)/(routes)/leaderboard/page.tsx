@@ -63,7 +63,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ endTime }) => {
   const timeComponents =
     timeLeft.hours || timeLeft.minutes || timeLeft.seconds ? (
       <div className="flex items-center justify-center space-x-3">
-        {["hours", "minutes", "seconds"].map((unit, idx) => (
+        {["hours", "minutes", "seconds"].map((unit) => (
           <div key={unit} className="flex flex-col items-center">
             <div className="flex items-center space-x-1">
               <span className="text-blue-600 text-2xl font-bold">
