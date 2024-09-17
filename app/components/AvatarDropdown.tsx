@@ -7,18 +7,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-  DropdownMenuShortcut,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import {
-  User,
-  Phone,
-  MessageSquare,
-  Settings,
-  LogOut,
-  List,
-  Gift,
-} from "lucide-react";
+import { User, Phone, MessageSquare, List, Gift } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const AvatarDropdown = () => {
